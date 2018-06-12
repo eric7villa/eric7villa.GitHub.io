@@ -83,18 +83,18 @@
 
 
 
-<meta name="description" content="部署openssl-1.1.1pre2  首先下载openssl1.1.1pre2并解压后,把文件夹重命名为openssl123wget https://www.openssl.org/source/openssl-1.1.1-pre2.tar.gztar xzf openssl-1.1.1-pre2.tar.gzmv openssl-1.1.1-pre2 openssl">
+<meta name="description" content="部署openssl-1.1.1pre1  首先下载openssl1.1.1pre1并解压后,把文件夹重命名为openssl123wget https://www.openssl.org/source/openssl-1.1.1-pre2.tar.gztar xzf openssl-1.1.1-pre1.tar.gzmv openssl-1.1.1-pre1 openssl">
 <meta name="keywords" content="网络安全">
 <meta property="og:type" content="article">
 <meta property="og:title" content="LNMP开启TLS1.3">
 <meta property="og:url" content="https://www.gze.me/2018/06/07/tls/index.html">
 <meta property="og:site_name" content="Lionel">
-<meta property="og:description" content="部署openssl-1.1.1pre2  首先下载openssl1.1.1pre2并解压后,把文件夹重命名为openssl123wget https://www.openssl.org/source/openssl-1.1.1-pre2.tar.gztar xzf openssl-1.1.1-pre2.tar.gzmv openssl-1.1.1-pre2 openssl">
+<meta property="og:description" content="部署openssl-1.1.1pre1  首先下载openssl1.1.1pre1并解压后,把文件夹重命名为openssl123wget https://www.openssl.org/source/openssl-1.1.1-pre2.tar.gztar xzf openssl-1.1.1-pre1.tar.gzmv openssl-1.1.1-pre1 openssl">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-06-11T10:01:47.516Z">
+<meta property="og:updated_time" content="2018-06-12T02:07:44.502Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="LNMP开启TLS1.3">
-<meta name="twitter:description" content="部署openssl-1.1.1pre2  首先下载openssl1.1.1pre2并解压后,把文件夹重命名为openssl123wget https://www.openssl.org/source/openssl-1.1.1-pre2.tar.gztar xzf openssl-1.1.1-pre2.tar.gzmv openssl-1.1.1-pre2 openssl">
+<meta name="twitter:description" content="部署openssl-1.1.1pre1  首先下载openssl1.1.1pre1并解压后,把文件夹重命名为openssl123wget https://www.openssl.org/source/openssl-1.1.1-pre2.tar.gztar xzf openssl-1.1.1-pre1.tar.gzmv openssl-1.1.1-pre1 openssl">
 
 
 
@@ -348,10 +348,10 @@
       
 
       
-        <h3 id="部署openssl-1-1-1pre2"><a href="#部署openssl-1-1-1pre2" class="headerlink" title="部署openssl-1.1.1pre2"></a>部署openssl-1.1.1pre2</h3><p>  首先下载openssl1.1.1pre2并解压后,把文件夹重命名为openssl<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">wget https://www.openssl.org/<span class="built_in">source</span>/openssl-1.1.1-pre2.tar.gz</span><br><span class="line">tar xzf openssl-1.1.1-pre2.tar.gz</span><br><span class="line">mv openssl-1.1.1-pre2 openssl</span><br></pre></td></tr></table></figure></p>
+        <h3 id="部署openssl-1-1-1pre1"><a href="#部署openssl-1-1-1pre1" class="headerlink" title="部署openssl-1.1.1pre1"></a>部署openssl-1.1.1pre1</h3><p>  首先下载openssl1.1.1pre1并解压后,把文件夹重命名为openssl<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">wget https://www.openssl.org/<span class="built_in">source</span>/openssl-1.1.1-pre2.tar.gz</span><br><span class="line">tar xzf openssl-1.1.1-pre1.tar.gz</span><br><span class="line">mv openssl-1.1.1-pre1 openssl</span><br></pre></td></tr></table></figure></p>
   <a id="more"></a>
 <p>  当前openssl还是在开发阶段,所以版本还未很统一,我选择了兼容性较好的一个,详情更多版本可以看官方github <a href="https://github.com/openssl" target="_blank" rel="noopener">传送门</a></p>
-<h3 id="修改LNMP升级脚本重新编译Nginx"><a href="#修改LNMP升级脚本重新编译Nginx" class="headerlink" title="修改LNMP升级脚本重新编译Nginx"></a>修改LNMP升级脚本重新编译Nginx</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> /root/lnmp1.5/include/</span><br><span class="line">rm -f upgrade_nginx.sh</span><br><span class="line">wget http://119.28.52.202/upgrade_nginx.sh</span><br><span class="line"><span class="built_in">cd</span> ..</span><br><span class="line">./upgrade.sh</span><br></pre></td></tr></table></figure>
+<h3 id="修改LNMP升级脚本重新编译Nginx"><a href="#修改LNMP升级脚本重新编译Nginx" class="headerlink" title="修改LNMP升级脚本重新编译Nginx"></a>修改LNMP升级脚本重新编译Nginx</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> /root/lnmp1.5/include/</span><br><span class="line">rm -rf upgrade_nginx.sh</span><br><span class="line">wget http://119.28.52.202/upgrade_nginx.sh</span><br><span class="line"><span class="built_in">cd</span> ..</span><br><span class="line">./upgrade.sh</span><br></pre></td></tr></table></figure>
 <p>  然后,后面的选择的版本可以看自己的需要选择,我选择了1.14.0</p>
 <h3 id="最后一步-修改Nginx网站配置文件"><a href="#最后一步-修改Nginx网站配置文件" class="headerlink" title="最后一步,修改Nginx网站配置文件"></a>最后一步,修改Nginx网站配置文件</h3><p>  打开需要开启tls1.3网站的配置文件 &#123; abc.com为你要修改的网站域名 &#125;</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vi /usr/<span class="built_in">local</span>/nginx/conf/vhost/www.abc.com.conf</span><br></pre></td></tr></table></figure>
@@ -527,7 +527,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#部署openssl-1-1-1pre2"><span class="nav-number">1.</span> <span class="nav-text">部署openssl-1.1.1pre2</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#修改LNMP升级脚本重新编译Nginx"><span class="nav-number">2.</span> <span class="nav-text">修改LNMP升级脚本重新编译Nginx</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#最后一步-修改Nginx网站配置文件"><span class="nav-number">3.</span> <span class="nav-text">最后一步,修改Nginx网站配置文件</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#未续待完"><span class="nav-number">4.</span> <span class="nav-text">未续待完</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#部署openssl-1-1-1pre1"><span class="nav-number">1.</span> <span class="nav-text">部署openssl-1.1.1pre1</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#修改LNMP升级脚本重新编译Nginx"><span class="nav-number">2.</span> <span class="nav-text">修改LNMP升级脚本重新编译Nginx</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#最后一步-修改Nginx网站配置文件"><span class="nav-number">3.</span> <span class="nav-text">最后一步,修改Nginx网站配置文件</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#未续待完"><span class="nav-number">4.</span> <span class="nav-text">未续待完</span></a></li></ol></div>
             
 
           </div>
