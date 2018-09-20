@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.lionel.fun/"/>
-  <updated>2018-08-01T13:05:09.238Z</updated>
+  <updated>2018-09-20T05:39:37.290Z</updated>
   <id>https://www.lionel.fun/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://www.lionel.fun/2018/08/01/bx/"/>
     <id>https://www.lionel.fun/2018/08/01/bx/</id>
     <published>2018-07-31T16:19:31.000Z</published>
-    <updated>2018-08-01T13:05:09.238Z</updated>
+    <updated>2018-09-20T05:39:37.290Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="输出思路"><a href="#输出思路" class="headerlink" title="输出思路"></a>输出思路</h3><h2 id="倒数前"><a href="#倒数前" class="headerlink" title="倒数前"></a>倒数前</h2><p>奇穴最后一层洗轻妒</p><h2 id="倒数时"><a href="#倒数时" class="headerlink" title="倒数时"></a>倒数时</h2><p>梵音 然后轻妒洗清涓<br>与此同时如果有特效腰坠就更换使用后切回(设置方便的快捷键切换 不然可能来不及)</p><h2 id="开打时"><a href="#开打时" class="headerlink" title="开打时"></a>开打时</h2><p>无脑按宏<br>当卡的梵音要用完前的最近的剑破,就在按宏中剑破打出去的刹那按梵音,去卡掉梵音的gcd</p><h2 id="战斗中-当梵音cd好了时候"><a href="#战斗中-当梵音cd好了时候" class="headerlink" title="战斗中,当梵音cd好了时候"></a>战斗中,当梵音cd好了时候</h2><p>判断接下来30秒是否适合开梵音 如果适合就cd好了就用…不然就等到合适时间再开<br>有些boss 有rush的阶段的 比如锻刀厅老四出小机器人的前和后都是必定要把梵音留到那里</p><h3 id="冰心宏"><a href="#冰心宏" class="headerlink" title="冰心宏"></a>冰心宏</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">/cast 剑破虚空</span><br><span class="line">/cast 玳弦急曲</span><br></pre></td></tr></table></figure><h3 id="配装加速"><a href="#配装加速" class="headerlink" title="配装加速"></a>配装加速</h3><p>大概在500+ 自己觉得从开场到玳弦急曲读条1.88s的时间觉得适当就可以</p><h2 id="奇穴"><a href="#奇穴" class="headerlink" title="奇穴"></a>奇穴</h2><p>  明妃(青梅嗅是看团队配置决定的，本队是否有2个秀秀等)，千里冰封，新妆，青梅，枕上，生莲，望舒，元君，霜风，朝露，焕颜，清涓<br>*如果本队有2个秀秀可以商榷其中一个秀秀可以洗青梅嗅,最后一层奇穴洗霜降,一定要配合好,不然会拖累团队的哦</p><h2 id="秘笈"><a href="#秘笈" class="headerlink" title="秘笈"></a>秘笈</h2><p>玳弦急曲(3本招式伤害+1本招式范围)<br>江海凝光(2本会心+2本招式伤害)<br>繁音急节(3本调息时间+1本满堂)<br>天地低昂(2本调息时间+1本持续效果时间+1本招式持续回血)<br>心鼓弦(3本调息时间+1本招式范围)</p><h3 id="关于新版本洗群攻略正在摸索中"><a href="#关于新版本洗群攻略正在摸索中" class="headerlink" title="关于新版本洗群攻略正在摸索中"></a>关于新版本洗群攻略正在摸索中</h3><p>有什么建议 欢迎提出~</p>]]></content>
+    <content type="html"><![CDATA[<h3 id="输出思路"><a href="#输出思路" class="headerlink" title="输出思路"></a>输出思路</h3><h2 id="倒数前"><a href="#倒数前" class="headerlink" title="倒数前"></a>倒数前</h2><p>奇穴最后一层洗轻妒</p><h2 id="倒数时"><a href="#倒数时" class="headerlink" title="倒数时"></a>倒数时</h2><p>梵音 然后轻妒洗清涓<br>与此同时如果有特效腰坠就更换使用后切回(设置方便的快捷键切换 不然可能来不及)</p><h2 id="开打时"><a href="#开打时" class="headerlink" title="开打时"></a>开打时</h2><p>无脑按宏<br>当卡的梵音要用完前的最近的剑破,就在按宏中剑破打出去的刹那按梵音,去卡掉梵音的gcd</p><h2 id="战斗中-当梵音cd好了时候"><a href="#战斗中-当梵音cd好了时候" class="headerlink" title="战斗中,当梵音cd好了时候"></a>战斗中,当梵音cd好了时候</h2><p>判断接下来30秒是否适合开梵音 如果适合就cd好了就用…不然就等到合适时间再开<br>有些boss 有rush的阶段的 比如锻刀厅老四出小机器人的前和后都是必定要把梵音留到那里</p><h3 id="冰心宏"><a href="#冰心宏" class="headerlink" title="冰心宏"></a>冰心宏</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">/cast 剑破虚空</span><br><span class="line">/cast 玳弦急曲</span><br></pre></td></tr></table></figure><h3 id="配装加速"><a href="#配装加速" class="headerlink" title="配装加速"></a>配装加速</h3><p>大概在500+ 自己觉得从开场到玳弦急曲读条1.88s的时间觉得适当就可以</p><h3 id="配装属性"><a href="#配装属性" class="headerlink" title="配装属性"></a>配装属性</h3><p>命中:112% ,属性优先: 基础攻击＞双会＞破防,破防大概42-45%左右就好,破防不是越高越好有一个阀值,大于具体阀值就会溢出</p><h2 id="奇穴"><a href="#奇穴" class="headerlink" title="奇穴"></a>奇穴</h2><p>  明妃(青梅嗅是看团队配置决定的，本队是否有2个秀秀等)，千里冰封，新妆，青梅，枕上，生莲，望舒，元君，霜风，朝露，焕颜，清涓<br>*如果本队有2个秀秀可以商榷其中一个秀秀可以洗青梅嗅,最后一层奇穴洗霜降,一定要配合好,不然会拖累团队的哦</p><h2 id="秘笈"><a href="#秘笈" class="headerlink" title="秘笈"></a>秘笈</h2><p>玳弦急曲(3本招式伤害+1本招式范围)<br>江海凝光(2本会心+2本招式伤害)<br>繁音急节(3本调息时间+1本满堂)<br>天地低昂(2本调息时间+1本持续效果时间+1本招式持续回血)<br>心鼓弦(3本调息时间+1本招式范围)</p><h3 id="关于新版本洗群攻略正在摸索中"><a href="#关于新版本洗群攻略正在摸索中" class="headerlink" title="关于新版本洗群攻略正在摸索中"></a>关于新版本洗群攻略正在摸索中</h3><p>有什么建议 欢迎提出~</p>]]></content>
     
     <summary type="html">
     
